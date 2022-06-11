@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bc1656da22.js" crossorigin="anonymous"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <div class="calculator">     
+            <input type="text" id="res" readonly><br>
+            <button onclick='show("9")'>9</button>
+            <button onclick='show("8")'>8</button>
+            <button onclick='show("7")'>7</button>
+            <button onclick='show("+")'>+</button><br>
+            <button onclick='show("6")'>6</button>
+            <button onclick='show("5")'>5</button>
+            <button onclick='show("4")'>4</button>
+            <button onclick='show("-")'>-</button><br>
+            <button onclick='show("3")'>3</button>
+            <button onclick='show("2")'>2</button>
+            <button onclick='show("1")'>1</button>
+            <button onclick='show("*")'>*</button><br>
+            <button onclick='show("0")'>0</button>
+            <button onclick='calc("=")'>= </button>
+            <button id="clear" onclick='ac()'>AC</button>
+            <button onclick='show("/")'>/</button>
+            <h2>Have fun with <br> calculator</h2>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
